@@ -23,6 +23,15 @@ elixir(function(mix) {
         'swipebox.css'
     ],'public/css/all.css');
 
+    mix.styles([
+        'bootstrap.css',
+        'font-awesome.min.css',
+        'main.css',
+        'charissa.css',
+        'beta.css',
+        'admin.css'
+    ],'public/css/admin-all.css');
+
     mix.scripts([
         'jquery-2.1.0.min.js',
         'bootstrap.min.js',
@@ -34,6 +43,12 @@ elixir(function(mix) {
         'ios-orientationchange-fix.js',
         'jquery.swipebox.min.js'
     ],'public/js/all.js');
+
+    mix.scripts([
+        'jquery-2.1.0.min.js',
+        'bootstrap.min.js',
+        'ios-orientationchange-fix.js'
+    ],'public/js/admin-all.js');
 
     mix.copy('resources/assets/fonts', 'public/fonts');
     mix.copy('resources/assets/img', 'public/img');

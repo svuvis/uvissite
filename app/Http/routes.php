@@ -51,4 +51,9 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/vacatures/qienittraineeshipalgemeen', 'PublicController@qienittraineeshipalgemeen');
     Route::get('/vacatures/keylanebigdata', 'PublicController@keylanebigdata');
     Route::get('/vacatures/keylaneoverige', 'PublicController@keylaneoverige');
+    Route::resource('vacature','VacturesController');
+    Route::resource('bedrijfsprofiel','BedrijfsprofielenController');
+    Route::auth();
+    Route::get('/admin','AdminController@index');
 });
+
