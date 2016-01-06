@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Bedrijfsprofiel;
 use App\Http\Requests;
+use App\Http\Requests\BedrijfsprofielRequest;
 use Illuminate\Http\Request;
+use Laracasts\Flash\Flash;
+use Storage;
 
 class BedrijfsprofielenController extends Controller
 {
@@ -15,7 +18,8 @@ class BedrijfsprofielenController extends Controller
      */
     public function index()
     {
-        //
+        $profiles = Bedrijfsprofiel::all();
+        return view('pages.admin.bedrijfsprofielen.index',compact('profiles'));
     }
 
     /**
@@ -25,19 +29,33 @@ class BedrijfsprofielenController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.admin.bedrijfsprofielen.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param BedrijfsprofielRequest|Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(BedrijfsprofielRequest $request)
     {
-        Bedrijfsprofiel::create($request->all());
+        $profile = new Bedrijfsprofiel();
+        $profile->title = $request->title;
+        $profile->body = $request->body;
+        $profile->picture = $this->uploadImage($request->file('picture'),'images','fit',1920,1080);
+        $profile->save();
+        Flash::success('Bedrijfsprofiel opgelagen');
         return redirect('/bedrijfsprofiel');
+    }
+
+    private function uploadImage($file,$location,$method,$width,$height){
+        $filename = 'uvis'.uniqid('', true).'.'.$file->getClientOriginalExtension();
+        \Tinify\setKey(\Config::get('services.tinify.key'));
+        $image = \Tinify\fromBuffer(file_get_contents($file))->resize(array('method' => $method,'width' => $width,'height' => $height))->toBuffer();
+        Storage::disk('s3')->put($location.'/'.$filename, $image);
+        Storage::disk('s3')->setVisibility($location.'/'.$filename, 'public');
+        return 'http://d4p17temvc0sy.cloudfront.net/'.$location.'/'. $filename;
     }
 
     /**
@@ -59,7 +77,8 @@ class BedrijfsprofielenController extends Controller
      */
     public function edit($id)
     {
-        $bedrijfsprofiel = Bedrijfsprofiel::findOrFail($id);
+        $profile = Bedrijfsprofiel::findOrFail($id);
+        return view('pages.admin.bedrijfsprofielen.edit',compact('profile'));
     }
 
     /**
@@ -71,8 +90,16 @@ class BedrijfsprofielenController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $bedrijfsprofiel = Bedrijfsprofiel::findOrFail($id);
-        $bedrijfsprofiel->update($request->all());
+        $profile = Bedrijfsprofiel::findOrFail($id);
+        if($request->file('picture') != ''){
+            $profile->title = $request->title;
+            $profile->body = $request->body;
+            $profile->picture = $this->uploadImage($request->file('picture'),'images','fit',1920,1080);
+            $profile->update();
+        } else {
+            $profile->update($request->all());
+        }
+        Flash::success('Bedrijfsprofiel aangepast');
         return redirect('/bedrijfsprofiel');
     }
 
@@ -85,6 +112,7 @@ class BedrijfsprofielenController extends Controller
     public function destroy($id)
     {
         Bedrijfsprofiel::destroy($id);
+        Flash::success('Bedrijfsprofiel verwijderd');
         return redirect('/bedrijfsprofiel');
     }
 }

@@ -18,6 +18,7 @@ class CreateBedrijfsprofielenTable extends Migration
             $table->string('title');
             $table->string('picture');
             $table->text('body');
+            $table->timestamps();
         });
     }
 

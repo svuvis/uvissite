@@ -26,6 +26,9 @@ elixir(function(mix) {
     mix.styles([
         'bootstrap.css',
         'font-awesome.min.css',
+        'ladda-themeless.min.css',
+        'toastr.min.css',
+        'redactor.css',
         'main.css',
         'charissa.css',
         'beta.css',
@@ -47,7 +50,14 @@ elixir(function(mix) {
     mix.scripts([
         'jquery-2.1.0.min.js',
         'bootstrap.min.js',
-        'ios-orientationchange-fix.js'
+        'ios-orientationchange-fix.js',
+        'redactor.js',
+        'table.js',
+        'video.js',
+        'toastr.min.js',
+        'spin.min.js',
+        'ladda.min.js',
+        'admin-uvis.js'
     ],'public/js/admin-all.js');
 
     mix.copy('resources/assets/fonts', 'public/fonts');

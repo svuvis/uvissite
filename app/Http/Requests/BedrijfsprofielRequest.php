@@ -13,7 +13,7 @@ class BedrijfsprofielRequest extends Request
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,9 @@ class BedrijfsprofielRequest extends Request
     public function rules()
     {
         return [
-            //
+            'title' => 'required|min:3|max:90',
+            'body' => 'required',
+            'picture' => 'required|mimes:jpg,jpeg,png|max:10240'
         ];
     }
 }

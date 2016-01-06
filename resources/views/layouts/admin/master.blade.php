@@ -45,10 +45,10 @@
 @include('partials.admin.menu')
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+    <div class="row" style="margin-right: 0">
+        <div class="col-sm-3 col-md-2 sidebar" style="padding-top: 0">
             <ul class="nav nav-sidebar">
-                <li class="active">{!! HTML::link('/','Dashboard') !!}</li>
+                <li class="active">{!! HTML::link('/admin','Dashboard') !!}</li>
                 <li>{!! HTML::link('/bedrijfsprofiel','Bedrijfsprofielen') !!}</li>
                 <li>{!! HTML::link('/vacature','Vacatures') !!}</li>
             </ul>
@@ -60,6 +60,18 @@
 <!-- /#wrapper -->
 
 {!! HTML::script('js/admin-all.js') !!}
+<script>
+    Ladda.bind( 'button[type=submit]' );
+</script>
+@if(Session::has('flash_notification.message'))
+    <script>
+        @if(Session::get('flash_notification.level') == 'danger')
+            toastr.error('{{ Session::get('flash_notification.message') }}');
+        @else
+            toastr.{{ Session::get('flash_notification.level') }}('{{ Session::get('flash_notification.message') }}');
+        @endif
+    </script>
+@endif
 @yield('js')
 
 </body>

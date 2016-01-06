@@ -821,3 +821,7 @@ button + label{
     -o-box-shadow: inset 0px 1px 0px #F79D88, 0px 3px 0px #B5442A, 0px 6px 3px #F85C37;
     box-shadow: inset 0px 1px 0px #F79D88, 0px 3px 0px #B5442A, 0px 6px 3px #F85C37;
 }
+
+#toast-container>div{
+    opacity: 1;
+}

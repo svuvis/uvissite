@@ -55,5 +55,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::resource('bedrijfsprofiel','BedrijfsprofielenController');
     Route::auth();
     Route::get('/admin','AdminController@index');
+    Route::post('/admin/upload','AdminController@upload');
 });
 
