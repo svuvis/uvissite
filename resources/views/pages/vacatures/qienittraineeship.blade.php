@@ -88,7 +88,7 @@
             <h1 style="text-align: left; font-size: 16px;" class="h7">AANBOD</h1>
             <p style="text-align: left;">
                 Bij Qien en onze opdrachtgever kan jij jouw eigen route uitstippelen om dé beste in jouw vakgebied te
-                worden. Naast werkervaring krijg jij de kans om vakopleidingen te volgen en wordt je gecoacht op jouw
+                worden. Naast werkervaring krijg jij de kans om vakopleidingen te volgen en word je gecoacht op jouw
                 persoonlijke ontwikkeling. Je krijgt een aanbieding die is gebaseerd op uitstekende primaire en secundaire
                 arbeidsvoorwaarden.
             </p>
