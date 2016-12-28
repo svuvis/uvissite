@@ -44,7 +44,6 @@ Commissies
 					<h1 class="h7">Leden Sponcie</h1>
 					<p>
 					    Voorzitter: Charissa van Ingen<br>
-					    Stijn Fazzi<br>
 					    ...
 					</p>
 					{{--<p><a href="#"><i class="fa fa-envelope" id="mail"></i></a></p>--}}
@@ -78,7 +77,6 @@ Commissies
                         <h1 class="h7">Leden UvisCie</h1>
                         <p>
                             Voorzitter: Jelle Breuer<br>
-                            Stijn Fazzi<br>
                             ...
                         </p>
                         {{--<p><a href="#"><i class="fa fa-envelope" id="mail"></i></a></p>--}}
