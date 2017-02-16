@@ -339,7 +339,7 @@ Agenda
                                     <div class="col-sm-11">
                                         <div class="timeline-panel credits">
                                             <ul class="timeline-panel-ul">
-                                                <li><span class="importo" style="font-weight:bold"><img src="https://s3.eu-central-1.amazonaws.com/siteopslag/media/whatthehack/001k.png" alt="What the H@ck event foto" width="100%" /></span></li>
+                                                <li><span class="importo" style="font-weight:bold"><img src="{{{{asset('storage/media/whatthehack/001k.png')}}" alt="What the H@ck event foto" width="100%" /></span></li>
                                             </ul>
                                         </div>
                                     </div>
