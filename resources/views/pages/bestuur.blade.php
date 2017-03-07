@@ -20,21 +20,21 @@ Bestuur
 			<div class="row centered">
 				<br><br>
 				<div class="col-lg-4">
-                    {!! HTML::image('/img/unknown.jpg', 'Charissa', ['class' => 'img-circle']) !!}
+                    {!! HTML::image('/img/unknown.jpg', 'William', ['class' => 'img-circle']) !!}
 					<h1 class="h7">William Loosman</h1>
 					 <p>Voorzitter 2016-2017</p>
 					<p><a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a></p>
 				</div><!-- col-lg-3 -->
 
 				<div class="col-lg-4">
-                    {!! HTML::image('/img/nigel.png', 'Jelle', ['class' => 'img-circle']) !!}
+                    {!! HTML::image('/img/nigel.png', 'Nigel', ['class' => 'img-circle']) !!}
 					<h1 class="h7">Nigel van Hattum</h1>
                     <p>Secretaris 2016-2017</p>
 					<p><a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a></p>
 				</div><!-- col-lg-3 -->
 
 				<div class="col-lg-4">
-                    {!! HTML::image('/img/unknown.jpg', 'jan', ['class' => 'img-circle']) !!}
+                    {!! HTML::image('/img/unknown.jpg', 'Sander', ['class' => 'img-circle']) !!}
 					<h1 class="h7">Sander de Bruin</h1>
                     <p>Penningmeester 2016-2017 </p>
 					<p><a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a></p>
@@ -44,14 +44,14 @@ Bestuur
             <div class="row centered">
                 <br><br>
                 <div class="col-lg-4">
-                    {!! HTML::image('/img/olivier.png', 'Charissa', ['class' => 'img-circle']) !!}
+                    {!! HTML::image('/img/olivier.png', 'Olivier', ['class' => 'img-circle']) !!}
                     <h1 class="h7">Olivier Verwoerd</h1>
                      <p>Algemeen lid 2016-2017</p>
                     <p><a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a></p>
                 </div><!-- col-lg-3 -->
 
                 <div class="col-lg-4">
-                    {!! HTML::image('/img/unknown.jpg', 'Jelle', ['class' => 'img-circle']) !!}
+                    {!! HTML::image('/img/unknown.jpg', 'Menno', ['class' => 'img-circle']) !!}
                     <h1 class="h7">Menno van Moort</h1>
                     <p>Algemeen lid 2016-2017</p>
                     <p><a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a></p>

@@ -10,7 +10,6 @@ class PublicController extends Controller
 {
     public function index()
     {
-        /*User::create(['name' => 'Jelle Breuer','email' => 'mail@jellebreuer.com','password' => 'maxmoons20']);*/
         return View::make('pages.index');
     }
     public function inschrijven()
