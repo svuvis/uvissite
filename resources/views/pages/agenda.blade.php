@@ -399,10 +399,7 @@ Agenda
 						bedrijven, Te gekke LAN's, Vrienden op je
 						opleiding! en vele activiteiten, zie agenda.<br />
 						Dus jij ziet lidmaatschap van UVIS wel
-						zitten? Kom eens langs in onze verenigings
-						ruimte op Nijenoord 1, ruimte A.-1.08. en
-						geniet direct van de gezelligheid en de
-						kennis!</p>
+						zitten?</p>
 				</div>
 			</div>
 		</div>

@@ -137,7 +137,7 @@ Onze Sponsors
                         <h1 class="h7" style="color: #fff;">SPONSOR WORDEN?</h1>
                         <p>
                             Wilt u sponsor worden van UVIS?<br>
-                            Stuur ons een mail naar bestuur@uvis.nl of neem contact op met onze secretaris, Nigel van Hattum (0646275558)<br>
+                            Stuur ons een mail naar bestuur@uvis.nl of neem contact op met onze secretaris, Jelle Breuer (0616709501)<br>
 
                         </p>
                     </div>

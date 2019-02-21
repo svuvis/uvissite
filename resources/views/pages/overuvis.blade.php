@@ -49,9 +49,7 @@ Over UVIS
 						</p>
 						<h1 class="h7">LID WORDEN?</h1>
 						<p>
-						    Dus jij ziet lidmaatschap van UVIS wel zitten? Kom eens langs
-						    in onze verenigingsruimte op Nijenoord 1, ruimte A.-1.08. en
-                            geniet direct van de gezelligheid en de kennis!
+						    Dus jij ziet lidmaatschap van UVIS wel zitten?
                             Of schrijf je nu direct in via {!! HTML::link('/inschrijven','deze pagina') !!}.
 						</p>
 

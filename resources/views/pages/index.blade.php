@@ -907,10 +907,7 @@
                         bedrijven, te gekke LAN's, vrienden op je
                         opleiding en vele activiteiten! {!! HTML::link('/agenda','(check de agenda)') !!}<br/>
                         Dus jij ziet het lidmaatschap van UVIS wel
-                        zitten? Kom eens langs in onze verenigings
-                        ruimte op Nijenoord 1, lokaal A.-1.08. En
-                        geniet direct van de gezelligheid en de
-                        kennis!</p>
+                        zitten?</p>
                 </div>
             </div>
         </div>

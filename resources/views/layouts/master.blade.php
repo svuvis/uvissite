@@ -101,11 +101,8 @@
 					<div class="row centered">
 						<p>Vragen? Neem a.u.b contact met ons op</p>
 						<p style="margin-bottom: 0">
-							Daltonlaan 200<br/>
-							3584BJ Utrecht<br/>
-							Nederland<br/>
 							bestuur@uvis.nl<br />
-							0646275558<br /><br />
+							0616709501<br /><br />
 							kvk: 30166928<br />
 							<a href="mailto:bestuur@uvis.nl"><i class="fa fa-envelope" id="mail"></i></a>
 						</p>

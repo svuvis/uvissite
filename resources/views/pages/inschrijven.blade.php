@@ -31,7 +31,7 @@ min-height:84.4%;
 						<p> Lid worden van UVIS is heel simpel.<br />
 						    <a href="http://uvis.nl/files/UvisInschrijfformulier.pdf" target="_blank"><i class="fa fa-download"></i> Download </a>
                             het inschrijvingsformulier en vul het volledig in.<br>
-                            Stuur het formulier op naar <a href="mailto:bestuur@uvis.nl">bestuur@uvis.nl</a> of kom het even langsbrengen in de verenigingsruimte (Nijenoord 1, A-1.08).<br />
+                            Stuur het formulier op naar <a href="mailto:bestuur@uvis.nl">bestuur@uvis.nl</a>.<br />
 
                             De contributie bedraagt momenteel tien euro per jaar.<br>
                             Als je je inschrijft ga je accoord met de<a href="http://uvis.nl/files/UvisStatuten.pdf" target="_blank"> statuten</a>.
