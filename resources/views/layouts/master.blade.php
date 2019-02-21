@@ -36,6 +36,9 @@
 	<!-- NAVBAR -->
   	<div class="page-wrap">
 		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="alert alert-danger" style="text-align:center;margin-left:20px;margin-right:20px;font-weight: bold;">
+				UVIS is inactief! voor <span style="font-weight:900">noodgevallen</span> email jelle@breuclan.nl of bel 0616709501
+			</div>
 			<div class="container">
 			<div class="navbar-header ">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -83,7 +86,7 @@
 					<li><a data-toggle="modal" data-target="#myModal" href="#myModal">Contact</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
-			</div>
+		</div>
 		</div>
 
 		 @yield('content')
