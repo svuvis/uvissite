@@ -681,7 +681,9 @@
                 <div class="tw">
                     <div id="tw-up">
                         <div class="vogel">
-                            <h1 class="h9" style="color: #fff">TWITTER FEED</h1>
+                            <h1 class="h9" style="color: #fff;margin-bottom: 25px;">TWITTER FEED</h1>
+                            <div class="row">
+                            <div class="col-md-6">
                             <svg class="hidee" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40%"
                                  viewBox="0 0 538 425.332" style="enable-background:new 0 0 538 425.332;"
@@ -850,11 +852,11 @@
                                 </g>
 
                         </svg>
-
-
-                            <div id="tw-widget">
-                                <a class="twitter-timeline" href="https://twitter.com/svuvis?ref_src=twsrc%5Etfw">Tweets by svuvis</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/svuvis?ref_src=twsrc%5Etfw">Tweets by svuvis</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        </div>
                         </div>
                     </div>
                 </div>
