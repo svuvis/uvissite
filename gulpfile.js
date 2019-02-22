@@ -11,7 +11,7 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
+elixir(function (mix) {
     mix.styles([
         'bootstrap.css',
         'font-awesome.min.css',
@@ -21,7 +21,7 @@ elixir(function(mix) {
         'betatimeline.css',
         'component.css',
         'swipebox.css'
-    ],'public/css/all.css');
+    ], 'public/css/all.css');
 
     mix.styles([
         'bootstrap.css',
@@ -33,19 +33,18 @@ elixir(function(mix) {
         'charissa.css',
         'beta.css',
         'admin.css'
-    ],'public/css/admin-all.css');
+    ], 'public/css/admin-all.css');
 
     mix.scripts([
         'jquery-2.1.0.min.js',
         'bootstrap.min.js',
-        'twFetcher.js',
         'modernizr.min.js',
         'modernizr.custom.js',
         'grid.js',
         'jquery.mixitup.js',
         'ios-orientationchange-fix.js',
         'jquery.swipebox.min.js'
-    ],'public/js/all.js');
+    ], 'public/js/all.js');
 
     mix.scripts([
         'jquery-2.1.0.min.js',
@@ -58,7 +57,7 @@ elixir(function(mix) {
         'spin.min.js',
         'ladda.min.js',
         'admin-uvis.js'
-    ],'public/js/admin-all.js');
+    ], 'public/js/admin-all.js');
 
     mix.copy('resources/assets/fonts', 'public/fonts');
     mix.copy('resources/assets/img', 'public/img');
