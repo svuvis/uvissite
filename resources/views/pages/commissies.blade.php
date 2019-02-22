@@ -5,7 +5,7 @@ Commissies
 @stop
 
 @section('content')
-  		<div id="blue" style="margin-top:81px">
+  		<div id="blue" style="margin-top: 153px">
 			<div class="container">
 				<div class="row centered">
 					<div class="col-lg-8 col-lg-offset-2">
@@ -96,7 +96,7 @@ Commissies
                 <br><br>
             </div>
 		</div><!-- container -->
-	
+
 	<div id="blue">
 		<div class="container">
 			<div class="row centered">

@@ -70,18 +70,7 @@
                     	</ul>
                     </li>
 
-                    <li>
-                    	<a data-toggle="dropdown" href="#">
-                    		Bedrijven
-                    	    <span class="caret"></span>
-                    	</a>
-                    	<ul class="dropdown-menu" role="menu">
-                    		<li class="{{set_active(['onzesponsors'])}}">{!! HTML::link('/onzesponsors','Onze Sponsors') !!}</li>
-                    		<li class="{{set_active(['vacatures*'])}}">{!! HTML::link('/vacatures','Vacatures') !!}</li>
-                    	</ul>
-                    </li>
-
-                    <li class="{{set_active(['media*'])}}">{!! HTML::link('/media','Media') !!}</li>
+                    <!-- <li class="{{set_active(['media*'])}}">{!! HTML::link('/media','Media') !!}</li> -->
 
 					<li><a data-toggle="modal" data-target="#myModal" href="#myModal">Contact</a></li>
 				</ul>

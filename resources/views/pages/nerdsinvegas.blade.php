@@ -3,7 +3,7 @@
 @section('title','(Media) Nerds in Vegas')
 
 @section('content')
-  		<div id="blue" style="margin-top:81px">
+  		<div id="blue" style="margin-top: 153px">
 			<div class="container">
 				<div class="row centered">
 					<div class="col-lg-8 col-lg-offset-2">

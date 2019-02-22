@@ -5,7 +5,7 @@ Agenda
 @stop
 
 @section('content')
-    <div id="blue" style="margin-top:81px">
+    <div id="blue" style="margin-top:153px">
 	    <div class="container">
 			<div class="row centered">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -19,11 +19,32 @@ Agenda
 		<div class="container">
 			<div class="row centered">
 				<div id="timeline">
-					<div class="row timeline-movement timeline-movement-top">
-					</div>
+					<!-- <div class="row timeline-movement timeline-movement-top">
+					</div> -->
 
                     <!--volgende item -->
-                    <div class="row timeline-movement">
+
+
+
+
+
+				</div>
+				<br />
+                <br />
+                <br />
+
+                <div class="verberg" onclick="showStuff('show', this); return false;">
+                    <br /><a href=""><h1 class="h9a">oude agendapunten <i class="fa fa-folder"></i></h1></a><br />
+                </div>
+
+                <div id="show" style="display:none;">
+                    <div class="verberg" onclick="showStuff('show', this); return true;">
+                        <br /><a href=""><h1 class="h9a">oude agendapunten <i class="fa fa-folder-open"></i></h1></a><br />
+                    </div>
+                    <!--Dit is verborgen-->
+				    <div id="timeline">
+                        <div class="row timeline-movement timeline-movement-top"></div>
+                        <div class="row timeline-movement">
                         <div class="timeline-badge">
                             <span class="timeline-balloon-date-day">26</span>
                             <span class="timeline-balloon-date-month">JUN</span>
@@ -80,27 +101,6 @@ Agenda
                             </div>
                         </div>
                     </div>
-
-
-
-
-				</div>
-				<br />
-                <br />
-                <br />
-
-                <div class="verberg" onclick="showStuff('show', this); return false;">
-                    <br /><a href=""><h1 class="h9a">oude agendapunten <i class="fa fa-folder"></i></h1></a><br />
-                </div>
-
-                <div id="show" style="display:none;">
-                    <div class="verberg" onclick="showStuff('show', this); return true;">
-                        <br /><a href=""><h1 class="h9a">oude agendapunten <i class="fa fa-folder-open"></i></h1></a><br />
-                    </div>
-                    <!--Dit is verborgen-->
-				    <div id="timeline">
-                        <div class="row timeline-movement timeline-movement-top"></div>
-
                         <!--volgende item -->
                         <div class="row timeline-movement">
                             <div class="timeline-badge">

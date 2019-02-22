@@ -880,26 +880,6 @@
         </div>
     </div>
 
-    <div>
-        <div id="lg">
-            <div class="container">
-                <div class="row centered">
-                    <h1 class="h9" style="color: #fff">SPONSOREN</h1><br><br>
-                    <a href="{{URL::action('PublicController@onzesponsors')}}">
-                        {!! HTML::image('/img/Quinity-wit.png', 'Quinity|Keylane', ['style' => 'padding-bottom:30px; padding-right: 30px; padding-left: 30px;width:100%']) !!}
-                    </a>
-                    <br />
-                    <a href="{{URL::action('PublicController@onzesponsors')}}">
-                        {!! HTML::image('/img/OGD-wit.png', 'OGD', ['style' => 'padding-bottom:30px; padding-right: 30px;width:30%']) !!}
-                    </a>
-                    <a href="{{URL::action('PublicController@onzesponsors')}}">
-                        {!! HTML::image('/img/HU-wit.png', 'Hogeschool Utrecht', ['style' => 'padding-bottom:30px;width:30%']) !!}
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="r" style="background: #ebebeb;">
         <div class="container">
             <div class="row centered">
